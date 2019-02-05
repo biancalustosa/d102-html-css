@@ -1,0 +1,60 @@
+body{
+    background-color: grey;
+    font-family: sans-serif;
+    margin:0;
+    
+}
+
+header{
+    background-color: darkslategrey;
+}
+
+nav a {
+    text-decoration: none;
+}
+
+.cor-preta{
+    color:black;
+}
+
+#header-pesquisa{
+    color: hotpink;
+}
+
+#header-pesquisa::placeholder{
+    color: brown;
+}
+
+textarea{
+    resize: none;
+}
+
+.formulario-contato{
+    background-color: darkgray;
+    border-radius: 10PX;
+    box-shadow: 1PX 1PX 10PX 10PX pink;
+}
+
+.formulario-contato p, .formulario-contato h3{
+    font-size: 20pt;
+}
+
+.negrito{
+    font-weight: bold;
+}
+
+.negrito:hover {
+    color: darkviolet;
+}
+
+img{
+    opacity: 0.5;
+}
+
+img:hover{
+    opacity:1;
+}
+
+button{
+    cursor: pointer;
+}
